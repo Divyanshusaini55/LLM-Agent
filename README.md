@@ -1,5 +1,5 @@
 
-# 🌐 LLM Agent [GyaanSetu](https://tds-bonus-project-llm-agent.vercel.app/) — Browser-Based Multi-Tool Reasoning
+# LLM Agent — Browser-Based Multi-Tool Reasoning
 
 This project is a **proof-of-concept (POC)** for building a **browser-based LLM agent** that can combine **natural language reasoning** with **external tools** like search engines, pipelined APIs, and even **live JavaScript execution**.  
 
@@ -8,22 +8,22 @@ Modern LLM agents aren’t limited to text — they dynamically integrate multip
 
 ---
 
-## 🚀 Features
+##  Features
 
-✅ **Multi-Provider Model Picker**  
+ **Multi-Provider Model Picker**  
 - Choose between **AI Pipe Proxy API** (default), OpenAI GPT, Gemini, Claude, and others.  
 - Dynamic dropdown for switching providers & models.  
 
-✅ **Reasoning Loop Agent**  
+ **Reasoning Loop Agent**  
 - Takes user input, queries the LLM, and loops with tool calls until the task is done.  
 - Uses **OpenAI-style tool/function calls** for tool invocation.  
 
-✅ **Supported Tools**  
+ **Supported Tools**  
 - 🔎 **Google Search Snippets** – Fetch relevant web info.  
 - 🔗 **AI Pipe Proxy API** – Flexible AI workflows & pipelines.  
 - ⚡ **JavaScript Sandbox** – Execute JS code securely inside the browser.  
 
-✅ **Robust UI/UX**  
+**Robust UI/UX**  
 - Bootstrap-based clean design.  
 - Streaming-style chat window with file upload.  
 - Graceful error handling via **bootstrap alerts**.  
@@ -59,7 +59,7 @@ This POC reimplements the above loop in **browser JavaScript**, connected to pro
 
 ---
 
-## 🛠️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -85,7 +85,7 @@ This POC reimplements the above loop in **browser JavaScript**, connected to pro
 
 ---
 
-## 🎨 UI & Code Requirements
+##  UI & Code Requirements
 
 * **Model Picker:** Dropdown built with `bootstrap-llm-provider`.
 * **Agent Loop:** JavaScript event-driven loop for LLM ↔ Tool calls.
@@ -110,7 +110,7 @@ This POC reimplements the above loop in **browser JavaScript**, connected to pro
 
 ---
 
-## 🧪 Deliverable
+##  Deliverable
 
 * A **browser JS app** with:
 
@@ -127,7 +127,7 @@ This POC reimplements the above loop in **browser JavaScript**, connected to pro
 
 ---
 
-## ✅ Evaluation Criteria
+##  Evaluation Criteria
 
 | Criteria               | Marks   |
 | ---------------------- | ------- |
@@ -138,7 +138,7 @@ This POC reimplements the above loop in **browser JavaScript**, connected to pro
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ├── index.html   # Frontend UI (chat + settings)
@@ -149,18 +149,10 @@ This POC reimplements the above loop in **browser JavaScript**, connected to pro
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 * [AI Pipe](https://aipipe.org/) for proxy API workflows
 * OpenAI/Anthropic/Google for LLM providers
 * Bootstrap for UI components
 
----
 
-🔮 **Next Steps**
-
-* Add **conversation persistence** with IndexedDB/localStorage.
-* Enable **streaming token-by-token responses**.
-* Expand tools: file parsing, charting, SQL, etc.
-
----
